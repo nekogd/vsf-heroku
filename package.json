@@ -3,10 +3,9 @@
   "version": "1.1.2",
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build --modern=client",
-    "build:analyze": "nuxt build -a --modern=client",
-    "heroku-postbuild": "npm run build",
-    "start": "nuxt start --modern=client",
+    "build": "nuxt build",
+    "build:analyze": "nuxt build",
+    "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
     "test:e2e:open": "cypress open --config-file tests/e2e/cypress.json",
